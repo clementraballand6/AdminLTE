@@ -1,8 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'AdminLte'
+set :repo_url, 'https://github.com/clementraballand6/AdminLte'
+set :user, "root"
+set :stages, ["staging", "production"]
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
