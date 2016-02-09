@@ -4,6 +4,7 @@ lock '3.4.0'
 set :application, 'AdminLte'
 set :repo_url, 'https://github.com/clementraballand6/AdminLte'
 set :user, "root"
+set :password, "debian"
 set :stages, ["staging", "production"]
 
 # Default branch is :master
