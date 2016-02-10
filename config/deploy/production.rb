@@ -42,11 +42,10 @@ set :deploy_to, "/var/www/test_capistrano"
 #
 # Global options
 # --------------
-#  set :ssh_options, {
-#    keys: %w(/home/rlisowski/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
+  set :ssh_options, {
+    keys: %w(~/.ssh/id_rsa),
+    forward_agent: false
+  }
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
